@@ -9,6 +9,9 @@ here is our comma seperated sample data of customers we will take the sample dat
 
 
 customer no,customer name,region,company
+
+
+
 9899821411,"Burke, Honorato U.",Alaska,Eu Incorporated
 9899821422,"Bell, Emily R.",Arizona,Ut Eros Non Company
 9899821379,"Hewitt, Chelsea Y.",PA,Egestas Aliquam Fringilla LLP
