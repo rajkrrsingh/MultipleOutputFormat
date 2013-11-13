@@ -16,8 +16,8 @@ public class MultipleOutputMapper extends Mapper<LongWritable, Text, Text, Text>
 			throws IOException, InterruptedException {
 		if(value.toString().length() > 0) {
 			String[] custArray = value.toString().split(",");
-			txtKey.set(custArray[0].toString());
-			txtValue.set(custArray[1].toString()+"\t"+custArray[3].toString());
+			txtKey.set(custArray[2].toString());
+			txtValue.set(custArray[0].toString()+"\t"+custArray[1].toString()+"\t"+custArray[3].toString());
 			context.write(txtKey, txtValue);
 		}
 	}
